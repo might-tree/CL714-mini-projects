@@ -1,0 +1,7 @@
+# Language Death Problem - Mini project 1
+par s=0.5
+par a=2
+init x=0.3
+dx/dt=s*(1-x)*x^a-(1-s)*x*(1-x)^a
+@ total=20
+done
